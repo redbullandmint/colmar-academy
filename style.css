@@ -67,12 +67,77 @@ header {
 }
 
 .banner h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 }
 
 .banner h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.information-main {
+    width: 60%;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.information-main img {
+    width: 95%;
+    margin: 32px 0px 32px 0px;
+}
+
+.information-main h1 {
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.information-main h2 {
+    margin-top: 0px;
+    
+}
+
+.information-main span {
+    color: black;
+    margin-bottom: 32px;
+}
+
+.news {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 32px 16px 16px;
+}
+
+.orientation, .lecture, .campus {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    margin: 1px;
+}
+
+.img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #0CACD1;
+}
+
+.lecture {
+    background-color: #DCDCDC;
+}
+
+.text h2, .text p, .text a {
+    margin: 8px;
 }
 
