@@ -141,3 +141,66 @@ header {
     margin: 8px;
 }
 
+.flex {
+    text-align: center;
+    background-color: #DCDCDC;
+    display: block;
+}
+
+.flex h1 {
+    margin: 0px auto 0px auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.fleximg {
+    margin: 0px 72px 0px 72px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 {
+    margin-bottom: 32px;
+}
+
+.row2 {
+    margin-bottom: 32px;
+    padding-bottom: 0px;
+}
+
+.img1 {
+    display: block;
+    width: 350px;
+    background-color: white;
+}
+
+.img1 a {
+    text-decoration: none;
+    color: hsl(0, 0%, 13%);
+}
+
+.img1 img {
+    width: 350px;
+    height: auto;
+    margin: 0px;
+}
+
+.img1 h3 {
+    margin: 16px 16px 8px 16px;
+}
+
+.img1 h4 {
+    font-weight: 300;
+    margin: 0px 16px 8px 16px;
+}
+
+.img1 p {
+    margin: 0px 16px 24px 16px;
+}
+
