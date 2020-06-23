@@ -218,20 +218,44 @@ header {
 
 .theflex {
     display: flex;
-    justify-content: center;
 }
 
 .thevid {
     margin: 0px 24px 0px 24px;
     padding-bottom: 16px;
+    width: 70%;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
 .thevid h2 {
     margin: 24px 0px 8px 0px;
 }
 
 .thevid p {
     margin-top: 0px;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+}
+
+.cover1, .cover2 {
+    display: flex;
+    align-items: center;
+}
+
+.cover1 {
+    background-color: #e0e0e0;
+}
+
+.cover1 img, .cover2 img {
+    width: 30%;
+    margin: 16px;
 }
 
 .last {
